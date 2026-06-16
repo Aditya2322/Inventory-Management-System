@@ -26,15 +26,13 @@ Ships locally or on Vercel. Paths adapt automatically when `VERCEL` is set.
 ## Quick start
 
 ```bash
-# git clone https://github.com/jonathanrao99/Inventory-Management-System 
+# git clone https://github.com/Aditya2322/Inventory-Management-System 
 cd Inventory-Management-System 
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 python app.py
 ```
-
-Open **http://127.0.0.1:5000** and feed it `data_set/data.csv`, or your own file with the same column shape.
 
 > **Want forecasting?** Pull in the ML extras:
 > ```bash
