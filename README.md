@@ -33,6 +33,8 @@ source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 python app.py
 ```
+Open **http://127.0.0.1:5000** and feed it `data_set/data.csv`, or your own file with the same column shape.
+
 
 > **Want forecasting?** Pull in the ML extras:
 > ```bash
